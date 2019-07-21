@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #CustomerForm{
+            width: 35%;
+            height: 80%;
+            border: solid black 2px;
+        }
+        .button{
+            width: 80px;
+        }
+        .label{
+            text-align: left;
+
+        }
+        #add{
+            background-color: chartreuse;
+
+        }
+        #update{
+            background-color: yellow;
+        }
+        #delete{
+            background-color: crimson;
+        }
+        #refresh{
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+<form id="CustomerForm">
+    <table>
+        <table border="2" width="100%">
+            <tr>
+                <th><a href="index.html"><label>Customer Form</label></a></th>
+                <th><a href="item.html"><label>Item Form</label></a></th>
+                <th><a href="Order.html"><label>Order Form</label></a></th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th class="label"><label>Code</label></th>
+                <th><input type="text" placeholder="input code"></th>
+                <th></th>
+                <th><input type="button" value="ADD" class="button" id="add"></th>
+            </tr>
+            <tr>
+                <th class="label"><label>Item Name</label></th>
+                <th><input type="text" placeholder="input item Name"></th>
+                <th></th>
+                <th><input type="button" value="Update" class="button" id="update"></th>
+            </tr>
+            <tr>
+                <th><label>QTY on hand</label></th>
+                <th><input type="text" placeholder="input QTY on hand"></th>
+                <th></th>
+                <th><input type="button" value="Delete" class="button" id="delete"></th>
+            </tr>
+            <tr>
+                <th class="label"><label>Unit Price</label></th>
+                <th><input type="text" placeholder="input Unit Price"></th>
+                <th></th>
+                <th><input type="button" value="Refresh" class="button" id="refresh"></th>
+            </tr>
+        </table>
+        <table border="2" width="100%">
+            <tr>
+                <th>Code</th>
+                <th>Item Name</th>
+                <th>QTY on hand</th>
+                <th>Unit Price</th>
+            </tr>
+            <tr>
+                <th>I-001</th>
+                <th>Lux</th>
+                <th>10</th>
+                <th>40</th>
+            </tr>
+            <tr>
+                <th>I-002</th>
+                <th>MUG</th>
+                <th>20</th>
+                <th>200</th>
+            </tr>
+            <tr>
+                <th>I-003</th>
+                <th>Lux</th>
+                <th>10</th>
+                <th>40</th>
+            </tr>
+        </table>
+    </table>
+</form>
+</body>
+</html>

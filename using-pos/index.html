@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #CustomerForm{
+            width: 35%;
+            height: 80%;
+            border: solid black 2px;
+        }
+        .button{
+            width: 80px;
+        }
+        .label{
+            text-align: left;
+
+        }
+        #add{
+            background-color: chartreuse;
+
+        }
+        #update{
+            background-color: yellow;
+        }
+        #delete{
+            background-color: crimson;
+        }
+        #refresh{
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+<form id="CustomerForm">
+<table>
+    <table border="2" width="100%">
+        <tr>
+            <th><a href="index.html"><label>Customer Form</label></a></th>
+            <th><a href="item.html"><label>Item Form</label></a></th>
+            <th><a href="Order.html"><label>Order Form</label></a></th>
+        </tr>
+    </table>
+<table>
+<tr>
+    <th class="label"><label>Customer ID</label></th>
+    <th><input type="text" placeholder="input customer id"></th>
+    <th></th>
+    <th><input type="button" value="ADD" class="button" id="add"></th>
+</tr>
+    <tr>
+        <th class="label"><label>Customer Name</label></th>
+        <th><input type="text" placeholder="input customer Name"></th>
+        <th></th>
+        <th><input type="button" value="Update" class="button" id="update"></th>
+    </tr>
+    <tr>
+        <th><label>Customer Address</label></th>
+        <th><input type="text" placeholder="input customer Address"></th>
+        <th></th>
+        <th><input type="button" value="Delete" class="button" id="delete"></th>
+    </tr>
+    <tr>
+        <th class="label"><label>Customer Salary</label></th>
+        <th><input type="text" placeholder="input customer Salary"></th>
+        <th></th>
+        <th><input type="button" value="Refresh" class="button" id="refresh"></th>
+    </tr>
+</table>
+    <table border="2">
+        <tr>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Customer Address</th>
+            <th>Customer Salary</th>
+        </tr>
+        <tr>
+            <th>C-001</th>
+            <th>Nimal</th>
+            <th>Galle</th>
+            <th>10000</th>
+        </tr>
+        <tr>
+            <th>C-002</th>
+            <th>Amal</th>
+            <th>Galle</th>
+            <th>20000</th>
+        </tr>
+        <tr>
+            <th>C-003</th>
+            <th>Kamal</th>
+            <th>Galle</th>
+            <th>15000</th>
+        </tr>
+    </table>
+</table>
+</form>
+</body>
+</html>
